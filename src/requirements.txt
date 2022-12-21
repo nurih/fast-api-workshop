@@ -1,0 +1,7 @@
+fastapi[all]
+typing-extensions==3.10.0.2
+uvicorn
+pydantic
+pymongo
+pymongo[srv]
+

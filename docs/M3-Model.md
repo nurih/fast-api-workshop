@@ -23,7 +23,7 @@ class Hero(BaseModel):
     name: str = Field(title='Hero name', description='The hero name known to the public')
     civilian_name: str | None = Field(title='The secret identity!', regex=r'^(?!(Mrs?|Captain))')
     wears_cape: bool | None = True
-    superpowers: Set[Superpower]
+    superpowers: set[Superpower]
 ```
 
 Let's examin the model above:

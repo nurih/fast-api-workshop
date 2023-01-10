@@ -9,7 +9,7 @@ In this lab we will pass values into the API.
 1. Create POST API endpoint:
     - Route the path `/order1`
     - Name the method `create_order1`
-    - The method should two parameters:
+    - The method should have two parameters:
         - A string value named `item`
         - A numeric value named `quantity`
 1. The body of the method should simply return the values. For example `return {"item": item, "quantity": quantity}`
@@ -26,7 +26,7 @@ In this lab we will pass values into the API.
 1. Create POST API endpoint:
     - Route the path `/order2`
     - Name the method `create_order2`
-    - The method should two parameters:
+    - The method should have two parameters:
         - A string value named `item`
         - A numeric value named `quantity`, assigned an `Optional[int]` value of **1**
 1. The body of the method should simply return the values. For example `return {"item": item, "quantity": quantity}`
@@ -35,7 +35,7 @@ In this lab we will pass values into the API.
         > Ensure the result is as epected.
     1. Supply an item name and no quantity, then execute.
         > Observe that this time _no error is produced_. The quantity returned should be the value **1**.
-    1. Supply an itme name and the value **-3** (negative quantity). Does this produce an error?
+    1. Supply an item name and the value **-3** (negative quantity). Does this produce an error?
 
 ### Attention to Detail
 

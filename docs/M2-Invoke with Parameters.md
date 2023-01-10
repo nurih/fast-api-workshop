@@ -19,7 +19,7 @@ In this lab we will pass values into the API.
     1. Supply an item name and no quantity, then execute.
         > Observe the error produced.
     1. Supply a number for the item name, and a number for the quantity, then execute.
-        > Observe the error produced.
+        > Observe whether an error produced.
 
 ### We Have Options
 
